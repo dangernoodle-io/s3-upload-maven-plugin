@@ -21,6 +21,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
 
     <aws.version>1.10.69</aws.version>
+    <jaxb.version>2.3.1</jaxb.version>
     <maven-plugin-api.version>3.6.2</maven-plugin-api.version>
 
     <animal-sniffer-maven-plugin.version>1.16</animal-sniffer-maven-plugin.version>
@@ -96,6 +97,12 @@
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk-sts</artifactId>
       <version>${aws.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>jaxb-runtime</artifactId>
+      <version>${jaxb.version}</version>
+      <scope>runtime</scope>
     </dependency>
   </dependencies>
 
