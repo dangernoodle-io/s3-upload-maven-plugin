@@ -1,3 +1,7 @@
+.project
+.classpath
+.settings
+*.md.html
 target
 test-output
 .idea
